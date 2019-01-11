@@ -50,7 +50,7 @@ client.on("message", async message => {
 client.on('message', message => {
 	var args = message.content.split(' ').slice(1);
 	var argresult = args.join(' ');
-	if (message.author.id === "319624924769681412") {
+	if (message.author.id === "468479699543130132") {
   
   
 	if (message.content.startsWith(prefix + 'wt')) {
