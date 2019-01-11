@@ -27,7 +27,7 @@ const prefix = "H";
 
 client.on("message", async message => {
   if(message.content.startsWith(prefix + "join")) {
-      if(message.author.id === "319624924769681412" || message.author.id == "319624924769681412") {
+      if(message.author.id === "468479699543130132" || message.author.id == "319624924769681412") {
       
     let args = message.content.split(" ").slice(1).join(" ");
       if(!args) {
